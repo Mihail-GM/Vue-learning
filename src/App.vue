@@ -18,12 +18,7 @@ export default {
     return {
       words: []
     }
-  },
-  created(){
-    this.$http.get('https://api.myjson.com/bins/7pkyz').then(response => {
-   
-    })
-  }
+
 }
 </script>
 
