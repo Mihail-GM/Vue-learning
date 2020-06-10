@@ -21,7 +21,7 @@ export default {
   },
   created(){
     this.$http.get('https://api.myjson.com/bins/7pkyz').then(response => {
-        this.words = response.body.words;
+   
     })
   }
 }
